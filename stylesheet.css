@@ -1,20 +1,10 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+html{
+    background: url(images/pot.jpg) no-repeat center center fixed;
 }
-html {
-
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
+/*
 nav {
     height: 10vh;
-    background: black;
+    background: blue;
 
 }
 .nav-links {
@@ -59,7 +49,7 @@ nav {
 
     .nav-links {
         position: fixed;
-        background: black;
+        background: blue;
         height: 100vh;
         width: 100%;
         flex-direction: column;
@@ -69,6 +59,7 @@ nav {
         pointer-events: none;
 
     }
+
     .nav-links.open {
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
@@ -101,8 +92,53 @@ nav {
         opacity: 1;
     }
 }
-.logo a{
-    font-size: 35px;
-    font-weight: 600;
+
+*/
+
+h1 {
     color: white;
+
+    margin-left: 110px;
+    font-size: 40px;
 }
+/*box*/
+.prof-box {
+    width: 450px;
+    height: 500px;
+    padding: 0 40px;
+    background-color: rgba(54, 24, 3, 0.93);
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+}
+/*effecto para foto*/
+.prof-pic {
+    border-radius: 50%;
+    width: 200px;
+    heigth: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+}
+p {
+    font-weight: 100;
+    margin-left: 120px;
+}
+.line-break{
+    width: 150px;
+    margin: 0 auto;
+    border-top: solid white;
+
+}
+.foto {
+    width: 25px;
+    height: 25px;
+}
+.social-link {
+    margin-left: 190px;
+}
+
+
