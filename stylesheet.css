@@ -7,6 +7,11 @@ html{
     box-sizing: border-box;
     text-decoration: none;
 }
+.navbar .logo {
+    display: flex;
+    margin-right: 1000px;
+    justify-content: flex-start;
+}
 .navbar {
     width: 100%;
     height: 60px;
@@ -14,7 +19,7 @@ html{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0px 30px;
+    padding: 0 30px;
 
 }
 .barra {
@@ -33,11 +38,15 @@ html{
 }
 
 .puntero {
-    font-family: "Century Gothic";
+    font-family: sans-serif;
     color: #FFF;
     text-decoration: none;
     padding: 21px 5px;
     font-size: 20px;
+}
+.puntero:hover {
+    background-color: red;
+    color: white;
 }
 .botton {
     font-size: 15px;
@@ -51,9 +60,9 @@ html{
     color: #fff;
     border: none;
     margin: 15px;
+    margin-left: 30px;
 }
 
-/*box*/
 .prof-box {
     width: 450px;
     height: 500px;
@@ -69,15 +78,20 @@ html{
     border-radius: 50%;
     width: 200px;
     heigth: 200px;
-    margin-left: 110px;
+    margin-left: 80px;
     margin-top: 20px;
     border-color: white;
     border-style: solid;
     border-width: 4px;
 }
+h1 {
+
+    margin-left: 80px;
+}
+
 p {
     font-weight: 100;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 .line-break{
     width: 150px;
@@ -90,7 +104,7 @@ p {
     height: 25px;
 }
 .social-link {
-    margin-left: 190px;
+    margin-left: 130px;
 }
 
 
